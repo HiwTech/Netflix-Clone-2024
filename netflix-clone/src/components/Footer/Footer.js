@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className="footer_outer_container">
       <div className="footer_inner_container">
-        <div className="footer_icon">
+        <div className="footer_icons">
           <FacebookOutlinedIcon />
           <InstagramIcon />
           <TwitterIcon />

@@ -41,3 +41,16 @@
     cursor: pointer;
     /* background-color: lightgreen; */
 }
+
+    
+/* 
+@media screen and (max-width: 768px) {
+    /* Apply styles for screens with a maximum width of 768 pixels */
+    .header_left ul{
+       gap: 0;
+    }
+    .header_right ul {
+       /* Stack items vertically on smaller screens */
+        /* Align items to the start of the container */
+        float: left;
+    }
