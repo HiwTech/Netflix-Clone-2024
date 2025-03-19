@@ -44,5 +44,9 @@
     /* background-color: lightgreen; */
 }
 
-    
+    @media (max-width: 860px){
+        .header_right{
+            display: none ;
+        }
+    }
 

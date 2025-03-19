@@ -30,3 +30,37 @@
     color:white;
     
 }
+@media (max-width: 480px){
+ 
+
+    .video_container{
+        top: -100px;;
+        width: 50%;
+        height: 150px;
+        z-index: 1000000;
+    }
+}
+
+@media (max-width: 480px) {
+    .row {
+        margin-left: 10px;
+    }
+
+    .row h2 {
+        font-size: 1.1rem;
+    }
+
+    .row_posters {
+        padding: 10px;
+    }
+
+    .row_poster {
+        flex: 0 0 calc(50% - 10px); /* 2 items per row */
+        max-height: 70px;
+    }
+
+    .row_posterLarge {
+        flex: 0 0 100%; /* 1 item per row */
+        max-height: 150px;
+    }
+}
