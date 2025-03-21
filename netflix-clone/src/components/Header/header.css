@@ -44,9 +44,21 @@
     /* background-color: lightgreen; */
 }
 
-    @media (max-width: 860px){
+    @media (max-width: 480px){
         .header_right{
             display: none ;
         }
+
+        li:nth-child(7) {
+  display:none;
+}
+    }
+
+ @media (max-width: 780px){
+        .header_right{
+            display: none ;
+        }
+
+        
     }
 

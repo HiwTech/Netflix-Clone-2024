@@ -60,9 +60,12 @@ const Banner = () => {
       className="banner"
       style={{
         backgroundSize: "cover",
+         objectFit:"cover",
+         objectPosition: "center top",
         backgroundImage: `url(${base_url}${movie?.backdrop_path})`,
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
+        
       }}
     >
       <div className="banner_content">
@@ -85,7 +88,7 @@ const Banner = () => {
         <div className="video_container">
           <iframe
             width="100%"
-            height="390"
+            height="390"           
             src={`https://www.youtube.com/embed/${trailerUrl}?autoplay=1`}
             title="Movie Trailer"
             frameBorder="0"
