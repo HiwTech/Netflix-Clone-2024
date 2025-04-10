@@ -27,7 +27,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
 
   const handleClick = (movie) => {
     if (trailerUrl) {
-      setTrailerUrl("");
+      setTrailerUrl(""); //represent closing a currently playing trailer.
     } else {
       movieTrailer(movie?.title || movie?.name || movie?.original_name).then(
         (url) => {
